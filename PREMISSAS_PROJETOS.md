@@ -1,6 +1,6 @@
 # Premissas de desenvolvimento dos projetos
 
-Versão 1.0, 08/11/2026. Padrão solicitado pelo proprietário para orientar o trabalho entre repositórios, sessões e assistentes. Este guia define como desenvolver; não autoriza executar toda a visão de produto nem comprova funcionalidades prontas.
+Versão 1.1, 09/11/2026. Padrão solicitado pelo proprietário para orientar o trabalho entre repositórios, sessões e assistentes. Este guia define como desenvolver; não autoriza executar toda a visão de produto nem comprova funcionalidades prontas.
 
 ## Ordem de trabalho
 
@@ -11,6 +11,10 @@ Versão 1.0, 08/11/2026. Padrão solicitado pelo proprietário para orientar o t
 5. Atualizar contexto e pendências, versionar e publicar conforme o escopo autorizado. Código no GitHub, aplicativo instalado e homologação real são estados diferentes.
 
 Ler primeiro `AGENTS.md`, instruções de assistente e memória do projeto. A solicitação explícita mais recente do proprietário governa o escopo. Preservar as definições já registradas: não repetir perguntas respondidas ou pedir autorização para a mesma etapa já autorizada. Quando faltar informação essencial, pesquisar o contexto disponível e perguntar somente o que muda a implementação.
+
+## Memória e descoberta de skills
+
+Adotar **Graft** para consultar, verificar e preservar aprendizados reutilizáveis entre sessões; adotar **find-skills** para descobrir capacidades quando houver uma necessidade concreta. Superpowers continua primeiro. Procedimento, instalação, segurança e fontes em [Graft e descoberta de skills](docs/GRAFT.md). Regras versionadas não comprovam instalação em todos os ambientes.
 
 ## Skills e métodos, com fontes
 
@@ -23,6 +27,8 @@ Ler primeiro `AGENTS.md`, instruções de assistente e memória do projeto. A so
 | Test-Driven Development | Comportamento novo e correções: teste que falha pela razão esperada, implementação e regressões | [Skill](https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md) |
 | Verification Before Completion | Exigir evidência antes de declarar algo pronto ou funcionando | [Skill](https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md) |
 | Requesting Code Review | Revisão de mudanças relevantes e antes da integração | [Skill](https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md) |
+| **Graft** | Memória local de desenvolvimento: consultar antes de trabalho relevante, verificar fontes, corrigir notas e registrar aprendizados | [Repositório](https://github.com/AEndrix03/Graft) · [Skill](https://github.com/AEndrix03/Graft/blob/master/plugins/graft/skills/graft/SKILL.md) |
+| **find-skills** | Descobrir e avaliar skills para uma necessidade concreta, antes de recomendar ou instalar | [Skill](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md) · [Catálogo](https://skills.sh/) |
 | **SDD (Spec-Driven Development)** | Especificação versionada como fonte da verdade do comportamento esperado | [Referência: GitHub Spec Kit](https://github.com/github/spec-kit) |
 | **BMAD Method** | Organização das fases e papéis, sem obrigar instalação de framework | [Repositório](https://github.com/bmad-code-org/BMAD-METHOD) |
 | **UI/UX Pro Max** | Inteligência geral de design: UX, estilos, paletas, tipografia, acessibilidade e orientação por stack | [Repositório](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |

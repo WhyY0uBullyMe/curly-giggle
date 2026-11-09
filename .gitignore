@@ -1,0 +1,7 @@
+
+
+# Graft: estado local de desenvolvimento
+.graft/
+graft.db
+graft.db-shm
+graft.db-wal
